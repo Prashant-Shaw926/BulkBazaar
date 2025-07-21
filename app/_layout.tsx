@@ -60,7 +60,7 @@ const SCREEN_OPTIONS = {
 
 const INDEX_OPTIONS = {
   headerLargeTitle: true,
-  title: 'NativeWindUI',
+  title: 'BulkBazaar',
   headerRight: () => <SettingsIcon />,
 } as const;
 
@@ -82,6 +82,6 @@ function SettingsIcon() {
 const MODAL_OPTIONS = {
   presentation: 'modal',
   animation: 'fade_from_bottom', // for android
-  title: 'Settings',
+  title: 'Profile',
   headerRight: () => <ThemeToggle />,
 } as const;
